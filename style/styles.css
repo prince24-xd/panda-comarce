@@ -128,11 +128,54 @@ ul li a {
   height: auto;
 }
 .watchitem {
-  background-color: #FF9C35;
+  background-color: #ff9c35;
 }
 .bagitem {
-  background-color: #FF589B;
+  background-color: #ff589b;
 }
 .shoeitem {
-  background-color: #4289FF;
+  background-color: #4289ff;
+}
+.shoesandbagSection{
+    background-color: #f4f4f4;
+}
+.shoesSection{
+    height: 1485px;
+  width: 1220px;
+  margin: 0 auto;
+}
+.shoesContainer {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shoe {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffff;
+  height: 535px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.shoe img {
+  height: 202px;
+  width: auto;
+}
+.shoe h2 {
+  color: #1f1f1f;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.shoe p {
+  color: #4e4e4e;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.shoesheading{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 40px 0;
 }
