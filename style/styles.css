@@ -4,14 +4,14 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-.herader{
-    background-color: rgb(167, 167, 77);
+.herader {
+  background-color: rgb(167, 167, 77);
 }
 .navContainer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 50px 155px ;
+  margin: 50px 155px;
 }
 .searchBox {
   position: relative;
@@ -25,19 +25,19 @@
   background-color: #f1f1f1;
   border: none;
 }
-.searchBox input:focus{
-    outline: none;
-    border: none;
+.searchBox input:focus {
+  outline: none;
+  border: none;
 }
 .searchBox i {
   position: absolute;
   top: 15px;
   right: 20px;
 }
-ul{
-    display: flex;
-    gap: 22px;
-    align-items: center;
+ul {
+  display: flex;
+  gap: 22px;
+  align-items: center;
 }
 ul li {
   list-style: none;
@@ -46,4 +46,54 @@ ul li a {
   text-decoration: none;
   color: #707070;
   font-size: 1rem;
+}
+/* header--complete */
+.heroSection {
+  max-width: 1220px;
+  margin: 0 auto;
+  max-height: 455px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #feeae9;
+  border-radius: 30px;
+  padding: 65px 45px;
+}
+.heroTextarea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.heroTextarea h1 {
+  font-size: 3.5rem;
+  color: #1f1f1f;
+}
+.heroTextarea p {
+  font-size: 1rem;
+  color: #4e4e4e;
+}
+.heroTextarea h3 {
+  font-size: 2.5rem;
+  color: #ff136f;
+  font-weight: 500;
+}
+.heroimg img {
+  max-height: 400px;
+  width: auto;
+}
+.buybtn {
+  position: relative;
+}
+.buybtn button {
+  padding: 16px 25px 15px 5px;
+  width: 140px;
+  background: #ff589b;
+  border-radius: 10px;
+  border: none;
+  color: #ffff;
+}
+.buybtn i {
+  position: absolute;
+  top: 20px;
+  left: 100px;
 }
