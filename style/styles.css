@@ -58,6 +58,7 @@ ul li a {
   background-color: #feeae9;
   border-radius: 30px;
   padding: 65px 45px;
+  margin-bottom: 65px;
 }
 .heroTextarea {
   display: flex;
@@ -96,4 +97,42 @@ ul li a {
   position: absolute;
   top: 20px;
   left: 100px;
+}
+/* catagories  */
+.catagories {
+  max-width: 1220px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.cataTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.catagoriesItem {
+  height: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+.item {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffff;
+}
+.item img {
+  max-width: 90px;
+  height: auto;
+}
+.watchitem {
+  background-color: #FF9C35;
+}
+.bagitem {
+  background-color: #FF589B;
+}
+.shoeitem {
+  background-color: #4289FF;
 }
